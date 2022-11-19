@@ -1,10 +1,42 @@
-div.card{
-    height: 100%;
+body{
+    background: rgb(176, 168, 168);
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+header h1{
+    margin: 0;
+
+}
+div.post{
+    background: white;
+    margin-top: 40px;
+}
+div.post img{
     width: 100%;
-   }
-   
-   .img-fit{
-       max-width: 100%;
-       min-height: 100%;
-       object-fit: cover;
-   }
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: gray;
+}
+div.post h2,div.post p{
+    padding: 10px;
+    margin: 0;
+}
+
+div.container{
+    width: 600px;
+    margin: auto;
+}
